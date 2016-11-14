@@ -26,7 +26,7 @@ public class Subtraction {
         this.num2D = num2D;
     }
 
-    public int doOperation(int num1I, int num2I) {
+    public double doOperation(double num1I, double num2I) {
         return num1I - num2I;
     }
 
@@ -35,6 +35,6 @@ public class Subtraction {
     }
 
     public String doOperation(String num1S, String num2S) {
-        return ("Impossible operation!");
+        return ("Impossible operation! " + num1S + " - " + num2S);
     }
 }

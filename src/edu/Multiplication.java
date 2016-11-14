@@ -32,6 +32,6 @@ public class Multiplication {
         return num1D*num2D;
     }
     public static String doOperation(String  num1S, String  num2S) {
-        return ("Impossible operation!");
+        return ("Impossible operation! " + num1S + " * " + num2S);
     }
 }
