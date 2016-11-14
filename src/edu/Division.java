@@ -4,34 +4,16 @@ package edu;
  * Created by Alex on 13.11.2016.
  */
 public class Division {
-    private int num1I;
-    private int num2I;
-    private double num1D;
-    private double num2D;
-    private String num1S;
-    private String num2S;
 
-    public Division(String num1S, String num2S) {
-        this.num1S = num1S;
-        this.num2S = num2S;
+    public static double doOperation(int num1, int num2) {
+        return num1 / num2;
     }
 
-    public Division(int num1I, int num2I) {
-        this.num1I = num1I;
-        this.num2I = num2I;
+    public static double doOPeration(double num1, double num2) {
+        return num1 / num2;
     }
 
-    public Division(double num1D, double num2D) {
-        this.num1D = num1D;
-        this.num2D = num2D;
-    }
-    public int doOperation(int num1I, int num2I){
-        return num1I/num2I;
-    }
-    public double doOPeration(double num1D, double num2D){
-        return num1D/num2D;
-    }
-    public String doOperation(String  num1S, String  num2S) {
-        return ("Impossible operation!");
+    public static String doOperation(String num1, String num2) {
+        return ("Impossible operation " + num1 + " / " + num2);
     }
 }
